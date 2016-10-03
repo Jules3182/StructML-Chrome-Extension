@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "StructML Extension",
+  "description": "This extension will give quick access to our website and many other features",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
